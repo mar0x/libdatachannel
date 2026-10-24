@@ -1,0 +1,46 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/paullouisageneau/libdatachannel/tags
+Upstream-Name: libdatachannel
+Files-Excluded:
+ .*
+
+Files: *
+Copyright: 2026, Alex Potsides
+           2023, Arda Cinar
+           2023, Eric Gressman
+           2020, Erik Cota-Robles
+           2020, Filip Klembara (in2core)
+           2020, Lara Mackey
+           2019-2021, Murat Dogan
+           2020, Nico Chatzi
+           2023, Patrick Heyer
+           2019-2025, Paul-Louis Ageneau
+           2024, Robert Edmonds
+           2024, Sean DuBois <sean@siobud.com>
+           2020-2021, Staz Modrzynski
+           2020, Stevedan Ogochukwu Omodolor
+           2024, Vladimir Voronin
+           2020, Will Munn
+           2023, Zita Liao (Dolby)
+License: MPL-2
+ The complete text of the Mozilla Public License 2.0 can be found in
+ the file `/usr/share/common-licenses/MPL-2.0'. 
+
+Files: debian/*
+Copyright: 2023-2026, Christian Marillat <marillat@deb-multimedia.org>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+Comment:
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

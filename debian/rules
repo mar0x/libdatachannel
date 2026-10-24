@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ -Scmake+ninja
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+	-DUSE_SYSTEM_JSON=ON \
+	-DUSE_SYSTEM_SRTP=ON \
+	-DUSE_SYSTEM_USRSCTP=ON \
+	-DUSE_SYSTEM_JUICE=OFF \
+	-DUSE_SYSTEM_PLOG=OFF \
+	-DNO_TESTS=OFF
+
+# ninja: error: unknown target 'test', did you mean 'tests'?
+override_dh_auto_test:
